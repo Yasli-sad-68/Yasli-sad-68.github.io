@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/monostir/main.jpg);
+    background-size: 100%;
+    position: relative;
+    min-width: 1518px;
+}
+
+.src {
+    width: 50%;
+    margin-bottom: 70px;
+}
+
+.video {
+    width: 50%;
+    margin: 30px auto;
+}
+
+.video iframe {
+    width: 400px;
+    height: 250px;
+}
+
+.photo {
+    width: 100%;
+}
+
+.para {
+    width: 100%;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.photo .photo_descr {
+    width: 40%;
+}
+
+.photo .photo_descr img {
+    width: 100%;
+}
+
+.content {
+    position: relative;
+}
+
+.descr {
+    width: 100%;
+    position: absolute;
+    top: -89px;
+    right: -745px;
+    font-size: 19px;
+    background-color: rgb(157, 248, 244, 0.5);
+}
+
+span {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    right: 140px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+}
