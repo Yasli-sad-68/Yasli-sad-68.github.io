@@ -57,9 +57,6 @@ body {
 
 .descr {
     width: 90%;
-    position: absolute;
-    top: -115px;
-    right: -667px;
     font-size: 19px;
     color: white;
     background-color: rgb(157, 248, 244, 0.5);
