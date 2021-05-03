@@ -18,12 +18,12 @@ body {
 }
 
 .video {
-    width: 50%;
+    width: 72%;
     margin: 30px auto;
 }
 
 .video iframe {
-    width: 400px;
+    width: 450px;
     height: 250px;
 }
 
