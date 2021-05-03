@@ -8,7 +8,7 @@ body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/kostel/main.jpg);
     background-size: 100%;
     position: relative;
-    height: 850px;
+    min-height: 850px;
     min-width: 1518px;
 }
 
@@ -53,13 +53,12 @@ body {
 
 .content {
     position: relative;
+    display: flex;
+    justify-content: space-around;
 }
 
 .descr {
     width: 85%;
-    position: absolute;
-    top: -180px;
-    right: -695px;
     font-size: 18px;
     color: white;
     background-color: rgb(157, 248, 244, 0.5);
