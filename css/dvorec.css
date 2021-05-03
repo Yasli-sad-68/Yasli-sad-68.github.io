@@ -9,16 +9,17 @@ body {
     background-size: 100%;
     position: relative;
     min-width: 1518px;
+    min-height: 850px;
 }
 
 .src {
-    width: 50%;
+    width: 100%;
     margin-bottom: 70px;
 }
 
 .video {
     width: 50%;
-    margin: 30px 189px;
+    margin: 30px auto;
 }
 
 .video iframe {
@@ -50,16 +51,20 @@ body {
 
 .content {
     position: relative;
+    display: flex;
+    justify-content: space-around;
 }
 
 .descr {
-    width: 70%;
+    width: 90%;
     position: absolute;
     top: -115px;
     right: -667px;
     font-size: 19px;
     color: white;
     background-color: rgb(157, 248, 244, 0.5);
+    height: 500px;
+    padding-top: 30px;
 }
 
 span {
