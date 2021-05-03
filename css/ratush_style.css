@@ -8,7 +8,7 @@ body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/ratush/bg.jpg);
     background-size: 100%;
     position: relative;
-    min-height: 800px;
+    min-height: 850px;
     min-width: 1518px;
 }
 
