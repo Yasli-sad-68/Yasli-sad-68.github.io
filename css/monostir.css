@@ -8,11 +8,12 @@ body {
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/monostir/main.jpg);
     background-size: 100%;
     position: relative;
+    min-height: 850px;
     min-width: 1518px;
 }
 
 .src {
-    width: 50%;
+    width: 100%;
     margin-bottom: 70px;
 }
 
@@ -50,13 +51,12 @@ body {
 
 .content {
     position: relative;
+    display: flex;
+    justify-content: space-around;
 }
 
 .descr {
-    width: 100%;
-    position: absolute;
-    top: -89px;
-    right: -745px;
+    width: 85%;
     font-size: 19px;
     color: white;
     background-color: rgb(157, 248, 244, 0.5);
@@ -64,7 +64,7 @@ body {
 
 span {
     display: block;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 
